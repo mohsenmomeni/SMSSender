@@ -25,7 +25,7 @@ namespace SMS.Win.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("soshya")]
+        [global::System.Configuration.DefaultSettingValueAttribute("mohsen")]
         public string Username {
             get {
                 return ((string)(this["Username"]));
@@ -37,7 +37,7 @@ namespace SMS.Win.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("soshya4876")]
+        [global::System.Configuration.DefaultSettingValueAttribute("momeni")]
         public string Password {
             get {
                 return ((string)(this["Password"]));
@@ -49,7 +49,7 @@ namespace SMS.Win.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("9820004876")]
+        [global::System.Configuration.DefaultSettingValueAttribute("9820001111")]
         public string SourceNumber {
             get {
                 return ((string)(this["SourceNumber"]));

@@ -3,13 +3,13 @@
   <Profiles />
   <Settings>
     <Setting Name="Username" Type="System.String" Scope="User">
-      <Value Profile="(Default)">soshya</Value>
+      <Value Profile="(Default)">mohsen</Value>
     </Setting>
     <Setting Name="Password" Type="System.String" Scope="User">
-      <Value Profile="(Default)">soshya4876</Value>
+      <Value Profile="(Default)">momeni</Value>
     </Setting>
     <Setting Name="SourceNumber" Type="System.String" Scope="User">
-      <Value Profile="(Default)">9820004876</Value>
+      <Value Profile="(Default)">9820001111</Value>
     </Setting>
     <Setting Name="UrlAddress" Type="System.String" Scope="User">
       <Value Profile="(Default)">ws.adpdigital.com</Value>

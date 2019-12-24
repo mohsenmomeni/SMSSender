@@ -33,7 +33,7 @@ namespace SMS.Tests
             OneStepTriggered = true;
         }
 
-        [Fact]
+        [Fact(Skip = "Will work if you config atieh correctly.")]
         public void SendList_Of_BulkMessageSender_Should_Send_When_EveryThingIsOk()
         {
             //Arrange
@@ -48,7 +48,7 @@ namespace SMS.Tests
             OneStepTriggered.Should().BeTrue();
         }
 
-        [Fact]
+        [Fact(Skip ="Will work if you config atieh correctly.")]
         public void SendList_Of_BulkMessageSender_Should_NotSend_When_NumberIsDuplicateForBulkMessage()
         {
             //Arrange
@@ -64,7 +64,7 @@ namespace SMS.Tests
             OneStepTriggered.Should().BeTrue();
         }
 
-        [Fact]
+        [Fact(Skip = "Will work if you config atieh correctly.")]
         public void SendList_Of_BulkMessageSender_Should_NotSend_When_NumberIsDuplicateWhenWeRefineItForBulkMessage()
         {
             //Arrange
@@ -83,7 +83,7 @@ namespace SMS.Tests
             OneStepTriggered.Should().BeTrue();
         }
 
-        [Fact]
+        [Fact(Skip = "Will work if you config atieh correctly.")]
         public void SendList_Of_BulkMessageSender_Should_Send_When_NumberIsDuplicateButBulkTitleIsDifferent()
         {
             //Arrange

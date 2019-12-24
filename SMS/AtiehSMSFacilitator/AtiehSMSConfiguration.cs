@@ -4,17 +4,17 @@ namespace AtiehSMSFacilitator
 {
     public class AtiehSMSConfiguration : ISMSConfiguration
     {
-        private string username = "soshya";
+        private string username = "mohsen";
         public string Username => username;
 
-        private string pass = "soshya4876";
+        private string pass = "momeni";
         public string Password => pass;
 
-        private string number = "9820004876";
+        private string number = "9820001111";
         public string SourceNo => number;
 
         private string url = "ws.adpdigital.com";
-        // "95.130.240.51";
+        // private string url = "95.130.240.51";
         public string Address => url;
 
         public void ChangeConfig(string username, string pass, string sourceNo, string url)

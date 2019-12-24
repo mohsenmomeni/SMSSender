@@ -61,7 +61,7 @@ namespace SMS.Tests
             action.Should().Throw<MessageIsEmptyException>();
         }
 
-        [Fact]
+        [Fact(Skip ="It will send sms")]
         public void SendSimple_Of_Sender_Should_Send_When_EveryThingIsOk()
         {
             //Act
